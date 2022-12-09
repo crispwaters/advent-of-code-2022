@@ -1,0 +1,209 @@
+[
+  {
+    "compartment1": [
+      "v",
+      "J",
+      "r",
+      "w",
+      "p",
+      "W",
+      "t",
+      "w",
+      "J",
+      "g",
+      "W",
+      "r"
+    ],
+    "compartment2": [
+      "h",
+      "c",
+      "s",
+      "F",
+      "M",
+      "M",
+      "f",
+      "F",
+      "F",
+      "h",
+      "F",
+      "p"
+    ],
+    "shared": [
+      "p"
+    ],
+    "sharedTotal": 16
+  },
+  {
+    "compartment1": [
+      "j",
+      "q",
+      "H",
+      "R",
+      "N",
+      "q",
+      "R",
+      "j",
+      "q",
+      "z",
+      "j",
+      "G",
+      "D",
+      "L",
+      "G",
+      "L"
+    ],
+    "compartment2": [
+      "r",
+      "s",
+      "F",
+      "M",
+      "f",
+      "F",
+      "Z",
+      "S",
+      "r",
+      "L",
+      "r",
+      "F",
+      "Z",
+      "s",
+      "S",
+      "L"
+    ],
+    "shared": [
+      "L",
+      "L"
+    ],
+    "sharedTotal": 76
+  },
+  {
+    "compartment1": [
+      "P",
+      "m",
+      "m",
+      "d",
+      "z",
+      "q",
+      "P",
+      "r",
+      "V"
+    ],
+    "compartment2": [
+      "v",
+      "P",
+      "w",
+      "w",
+      "T",
+      "W",
+      "B",
+      "w",
+      "g"
+    ],
+    "shared": [
+      "P"
+    ],
+    "sharedTotal": 42
+  },
+  {
+    "compartment1": [
+      "w",
+      "M",
+      "q",
+      "v",
+      "L",
+      "M",
+      "Z",
+      "H",
+      "h",
+      "H",
+      "M",
+      "v",
+      "w",
+      "L",
+      "H"
+    ],
+    "compartment2": [
+      "j",
+      "b",
+      "v",
+      "c",
+      "j",
+      "n",
+      "n",
+      "S",
+      "B",
+      "n",
+      "v",
+      "T",
+      "Q",
+      "F",
+      "n"
+    ],
+    "shared": [
+      "v",
+      "v"
+    ],
+    "sharedTotal": 44
+  },
+  {
+    "compartment1": [
+      "t",
+      "t",
+      "g",
+      "J",
+      "t",
+      "R",
+      "G",
+      "J"
+    ],
+    "compartment2": [
+      "Q",
+      "c",
+      "t",
+      "T",
+      "Z",
+      "t",
+      "Z",
+      "T"
+    ],
+    "shared": [
+      "t",
+      "t"
+    ],
+    "sharedTotal": 40
+  },
+  {
+    "compartment1": [
+      "C",
+      "r",
+      "Z",
+      "s",
+      "J",
+      "s",
+      "P",
+      "P",
+      "Z",
+      "s",
+      "G",
+      "z"
+    ],
+    "compartment2": [
+      "w",
+      "w",
+      "s",
+      "L",
+      "w",
+      "L",
+      "m",
+      "p",
+      "w",
+      "M",
+      "D",
+      "w"
+    ],
+    "shared": [
+      "s"
+    ],
+    "sharedTotal": 19
+  }
+]

@@ -1,0 +1,128 @@
+{
+  "filtered": [
+    [
+      {
+        "start": 2,
+        "end": 8
+      },
+      {
+        "start": 3,
+        "end": 7
+      }
+    ],
+    [
+      {
+        "start": 6,
+        "end": 6
+      },
+      {
+        "start": 4,
+        "end": 6
+      }
+    ]
+  ],
+  "overlapped": [
+    [
+      {
+        "start": 5,
+        "end": 7
+      },
+      {
+        "start": 7,
+        "end": 9
+      }
+    ],
+    [
+      {
+        "start": 2,
+        "end": 8
+      },
+      {
+        "start": 3,
+        "end": 7
+      }
+    ],
+    [
+      {
+        "start": 6,
+        "end": 6
+      },
+      {
+        "start": 4,
+        "end": 6
+      }
+    ],
+    [
+      {
+        "start": 2,
+        "end": 6
+      },
+      {
+        "start": 4,
+        "end": 8
+      }
+    ]
+  ],
+  "pairs": [
+    [
+      {
+        "start": 2,
+        "end": 4
+      },
+      {
+        "start": 6,
+        "end": 8
+      }
+    ],
+    [
+      {
+        "start": 2,
+        "end": 3
+      },
+      {
+        "start": 4,
+        "end": 5
+      }
+    ],
+    [
+      {
+        "start": 5,
+        "end": 7
+      },
+      {
+        "start": 7,
+        "end": 9
+      }
+    ],
+    [
+      {
+        "start": 2,
+        "end": 8
+      },
+      {
+        "start": 3,
+        "end": 7
+      }
+    ],
+    [
+      {
+        "start": 6,
+        "end": 6
+      },
+      {
+        "start": 4,
+        "end": 6
+      }
+    ],
+    [
+      {
+        "start": 2,
+        "end": 6
+      },
+      {
+        "start": 4,
+        "end": 8
+      }
+    ]
+  ]
+}
