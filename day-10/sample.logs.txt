@@ -1,0 +1,768 @@
+Sprite position: ###.....................................
+Start cycle 1: begin executing addx 15
+During cycle 1: CRT draws pixel in position 0
+Current CRT row: #
+During cycle 2: CRT draws pixel in position 1
+Current CRT row: ##
+End of cycle 3: finish executing addx 15 (Register X is now 16)
+Sprite position: ...............###......................
+Start cycle 3: begin executing addx -11
+During cycle 3: CRT draws pixel in position 2
+Current CRT row: ##.
+During cycle 4: CRT draws pixel in position 3
+Current CRT row: ##..
+End of cycle 5: finish executing addx -11 (Register X is now 5)
+Sprite position: ....###.................................
+Start cycle 5: begin executing addx 6
+During cycle 5: CRT draws pixel in position 4
+Current CRT row: ##..#
+During cycle 6: CRT draws pixel in position 5
+Current CRT row: ##..##
+End of cycle 7: finish executing addx 6 (Register X is now 11)
+Sprite position: ..........###...........................
+Start cycle 7: begin executing addx -3
+During cycle 7: CRT draws pixel in position 6
+Current CRT row: ##..##.
+During cycle 8: CRT draws pixel in position 7
+Current CRT row: ##..##..
+End of cycle 9: finish executing addx -3 (Register X is now 8)
+Sprite position: .......###..............................
+Start cycle 9: begin executing addx 5
+During cycle 9: CRT draws pixel in position 8
+Current CRT row: ##..##..#
+During cycle 10: CRT draws pixel in position 9
+Current CRT row: ##..##..##
+End of cycle 11: finish executing addx 5 (Register X is now 13)
+Sprite position: ............###.........................
+Start cycle 11: begin executing addx -1
+During cycle 11: CRT draws pixel in position 10
+Current CRT row: ##..##..##.
+During cycle 12: CRT draws pixel in position 11
+Current CRT row: ##..##..##..
+End of cycle 13: finish executing addx -1 (Register X is now 12)
+Sprite position: ...........###..........................
+Start cycle 13: begin executing addx -8
+During cycle 13: CRT draws pixel in position 12
+Current CRT row: ##..##..##..#
+During cycle 14: CRT draws pixel in position 13
+Current CRT row: ##..##..##..##
+End of cycle 15: finish executing addx -8 (Register X is now 4)
+Sprite position: ...###..................................
+Start cycle 15: begin executing addx 13
+During cycle 15: CRT draws pixel in position 14
+Current CRT row: ##..##..##..##.
+During cycle 16: CRT draws pixel in position 15
+Current CRT row: ##..##..##..##..
+End of cycle 17: finish executing addx 13 (Register X is now 17)
+Sprite position: ................###.....................
+Start cycle 17: begin executing addx 4
+During cycle 17: CRT draws pixel in position 16
+Current CRT row: ##..##..##..##..#
+During cycle 18: CRT draws pixel in position 17
+Current CRT row: ##..##..##..##..##
+End of cycle 19: finish executing addx 4 (Register X is now 21)
+Sprite position: ....................###.................
+During cycle 19: CRT draws pixel in position 18
+Current CRT row: ##..##..##..##..##.
+Start cycle 20: begin executing addx -1
+During cycle 20: CRT draws pixel in position 19
+Current CRT row: ##..##..##..##..##..
+During cycle 21: CRT draws pixel in position 20
+Current CRT row: ##..##..##..##..##..#
+End of cycle 22: finish executing addx -1 (Register X is now 20)
+Sprite position: ...................###..................
+Start cycle 22: begin executing addx 5
+During cycle 22: CRT draws pixel in position 21
+Current CRT row: ##..##..##..##..##..##
+During cycle 23: CRT draws pixel in position 22
+Current CRT row: ##..##..##..##..##..##.
+End of cycle 24: finish executing addx 5 (Register X is now 25)
+Sprite position: ........................###.............
+Start cycle 24: begin executing addx -1
+During cycle 24: CRT draws pixel in position 23
+Current CRT row: ##..##..##..##..##..##..
+During cycle 25: CRT draws pixel in position 24
+Current CRT row: ##..##..##..##..##..##..#
+End of cycle 26: finish executing addx -1 (Register X is now 24)
+Sprite position: .......................###..............
+Start cycle 26: begin executing addx 5
+During cycle 26: CRT draws pixel in position 25
+Current CRT row: ##..##..##..##..##..##..##
+During cycle 27: CRT draws pixel in position 26
+Current CRT row: ##..##..##..##..##..##..##.
+End of cycle 28: finish executing addx 5 (Register X is now 29)
+Sprite position: ............................###.........
+Start cycle 28: begin executing addx -1
+During cycle 28: CRT draws pixel in position 27
+Current CRT row: ##..##..##..##..##..##..##..
+During cycle 29: CRT draws pixel in position 28
+Current CRT row: ##..##..##..##..##..##..##..#
+End of cycle 30: finish executing addx -1 (Register X is now 28)
+Sprite position: ...........................###..........
+Start cycle 30: begin executing addx 5
+During cycle 30: CRT draws pixel in position 29
+Current CRT row: ##..##..##..##..##..##..##..##
+During cycle 31: CRT draws pixel in position 30
+Current CRT row: ##..##..##..##..##..##..##..##.
+End of cycle 32: finish executing addx 5 (Register X is now 33)
+Sprite position: ................................###.....
+Start cycle 32: begin executing addx -1
+During cycle 32: CRT draws pixel in position 31
+Current CRT row: ##..##..##..##..##..##..##..##..
+During cycle 33: CRT draws pixel in position 32
+Current CRT row: ##..##..##..##..##..##..##..##..#
+End of cycle 34: finish executing addx -1 (Register X is now 32)
+Sprite position: ...............................###......
+Start cycle 34: begin executing addx 5
+During cycle 34: CRT draws pixel in position 33
+Current CRT row: ##..##..##..##..##..##..##..##..##
+During cycle 35: CRT draws pixel in position 34
+Current CRT row: ##..##..##..##..##..##..##..##..##.
+End of cycle 36: finish executing addx 5 (Register X is now 37)
+Sprite position: ....................................###.
+Start cycle 36: begin executing addx -1
+During cycle 36: CRT draws pixel in position 35
+Current CRT row: ##..##..##..##..##..##..##..##..##..
+During cycle 37: CRT draws pixel in position 36
+Current CRT row: ##..##..##..##..##..##..##..##..##..#
+End of cycle 38: finish executing addx -1 (Register X is now 36)
+Sprite position: ...................................###..
+Start cycle 38: begin executing addx -35
+During cycle 38: CRT draws pixel in position 37
+Current CRT row: ##..##..##..##..##..##..##..##..##..##
+During cycle 39: CRT draws pixel in position 38
+Current CRT row: ##..##..##..##..##..##..##..##..##..##.
+End of cycle 40: finish executing addx -35 (Register X is now 1)
+Sprite position: ###.....................................
+Start cycle 40: begin executing addx 1
+During cycle 40: CRT draws pixel in position 39
+Current CRT row: ##..##..##..##..##..##..##..##..##..##..
+During cycle 41: CRT draws pixel in position 40
+Current CRT row: #
+End of cycle 42: finish executing addx 1 (Register X is now 2)
+Sprite position: .###....................................
+Start cycle 42: begin executing addx 24
+During cycle 42: CRT draws pixel in position 41
+Current CRT row: ##
+During cycle 43: CRT draws pixel in position 42
+Current CRT row: ###
+End of cycle 44: finish executing addx 24 (Register X is now 26)
+Sprite position: .........................###............
+Start cycle 44: begin executing addx -19
+During cycle 44: CRT draws pixel in position 43
+Current CRT row: ###.
+During cycle 45: CRT draws pixel in position 44
+Current CRT row: ###..
+End of cycle 46: finish executing addx -19 (Register X is now 7)
+Sprite position: ......###...............................
+Start cycle 46: begin executing addx 1
+During cycle 46: CRT draws pixel in position 45
+Current CRT row: ###...
+During cycle 47: CRT draws pixel in position 46
+Current CRT row: ###...#
+End of cycle 48: finish executing addx 1 (Register X is now 8)
+Sprite position: .......###..............................
+Start cycle 48: begin executing addx 16
+During cycle 48: CRT draws pixel in position 47
+Current CRT row: ###...##
+During cycle 49: CRT draws pixel in position 48
+Current CRT row: ###...###
+End of cycle 50: finish executing addx 16 (Register X is now 24)
+Sprite position: .......................###..............
+Start cycle 50: begin executing addx -11
+During cycle 50: CRT draws pixel in position 49
+Current CRT row: ###...###.
+During cycle 51: CRT draws pixel in position 50
+Current CRT row: ###...###..
+End of cycle 52: finish executing addx -11 (Register X is now 13)
+Sprite position: ............###.........................
+During cycle 52: CRT draws pixel in position 51
+Current CRT row: ###...###...
+During cycle 53: CRT draws pixel in position 52
+Current CRT row: ###...###...#
+Start cycle 54: begin executing addx 21
+During cycle 54: CRT draws pixel in position 53
+Current CRT row: ###...###...##
+During cycle 55: CRT draws pixel in position 54
+Current CRT row: ###...###...###
+End of cycle 56: finish executing addx 21 (Register X is now 34)
+Sprite position: .................................###....
+Start cycle 56: begin executing addx -15
+During cycle 56: CRT draws pixel in position 55
+Current CRT row: ###...###...###.
+During cycle 57: CRT draws pixel in position 56
+Current CRT row: ###...###...###..
+End of cycle 58: finish executing addx -15 (Register X is now 19)
+Sprite position: ..................###...................
+During cycle 58: CRT draws pixel in position 57
+Current CRT row: ###...###...###...
+During cycle 59: CRT draws pixel in position 58
+Current CRT row: ###...###...###...#
+Start cycle 60: begin executing addx -3
+During cycle 60: CRT draws pixel in position 59
+Current CRT row: ###...###...###...##
+During cycle 61: CRT draws pixel in position 60
+Current CRT row: ###...###...###...###
+End of cycle 62: finish executing addx -3 (Register X is now 16)
+Sprite position: ...............###......................
+Start cycle 62: begin executing addx 9
+During cycle 62: CRT draws pixel in position 61
+Current CRT row: ###...###...###...###.
+During cycle 63: CRT draws pixel in position 62
+Current CRT row: ###...###...###...###..
+End of cycle 64: finish executing addx 9 (Register X is now 25)
+Sprite position: ........................###.............
+Start cycle 64: begin executing addx 1
+During cycle 64: CRT draws pixel in position 63
+Current CRT row: ###...###...###...###...
+During cycle 65: CRT draws pixel in position 64
+Current CRT row: ###...###...###...###...#
+End of cycle 66: finish executing addx 1 (Register X is now 26)
+Sprite position: .........................###............
+Start cycle 66: begin executing addx -3
+During cycle 66: CRT draws pixel in position 65
+Current CRT row: ###...###...###...###...##
+During cycle 67: CRT draws pixel in position 66
+Current CRT row: ###...###...###...###...###
+End of cycle 68: finish executing addx -3 (Register X is now 23)
+Sprite position: ......................###...............
+Start cycle 68: begin executing addx 8
+During cycle 68: CRT draws pixel in position 67
+Current CRT row: ###...###...###...###...###.
+During cycle 69: CRT draws pixel in position 68
+Current CRT row: ###...###...###...###...###..
+End of cycle 70: finish executing addx 8 (Register X is now 31)
+Sprite position: ..............................###.......
+Start cycle 70: begin executing addx 1
+During cycle 70: CRT draws pixel in position 69
+Current CRT row: ###...###...###...###...###...
+During cycle 71: CRT draws pixel in position 70
+Current CRT row: ###...###...###...###...###...#
+End of cycle 72: finish executing addx 1 (Register X is now 32)
+Sprite position: ...............................###......
+Start cycle 72: begin executing addx 5
+During cycle 72: CRT draws pixel in position 71
+Current CRT row: ###...###...###...###...###...##
+During cycle 73: CRT draws pixel in position 72
+Current CRT row: ###...###...###...###...###...###
+End of cycle 74: finish executing addx 5 (Register X is now 37)
+Sprite position: ....................................###.
+During cycle 74: CRT draws pixel in position 73
+Current CRT row: ###...###...###...###...###...###.
+During cycle 75: CRT draws pixel in position 74
+Current CRT row: ###...###...###...###...###...###..
+During cycle 76: CRT draws pixel in position 75
+Current CRT row: ###...###...###...###...###...###...
+During cycle 77: CRT draws pixel in position 76
+Current CRT row: ###...###...###...###...###...###...#
+During cycle 78: CRT draws pixel in position 77
+Current CRT row: ###...###...###...###...###...###...##
+Start cycle 79: begin executing addx -36
+During cycle 79: CRT draws pixel in position 78
+Current CRT row: ###...###...###...###...###...###...###
+During cycle 80: CRT draws pixel in position 79
+Current CRT row: ###...###...###...###...###...###...###.
+End of cycle 81: finish executing addx -36 (Register X is now 1)
+Sprite position: ###.....................................
+During cycle 81: CRT draws pixel in position 80
+Current CRT row: #
+Start cycle 82: begin executing addx 1
+During cycle 82: CRT draws pixel in position 81
+Current CRT row: ##
+During cycle 83: CRT draws pixel in position 82
+Current CRT row: ###
+End of cycle 84: finish executing addx 1 (Register X is now 2)
+Sprite position: .###....................................
+Start cycle 84: begin executing addx 7
+During cycle 84: CRT draws pixel in position 83
+Current CRT row: ####
+During cycle 85: CRT draws pixel in position 84
+Current CRT row: ####.
+End of cycle 86: finish executing addx 7 (Register X is now 9)
+Sprite position: ........###.............................
+During cycle 86: CRT draws pixel in position 85
+Current CRT row: ####..
+During cycle 87: CRT draws pixel in position 86
+Current CRT row: ####...
+During cycle 88: CRT draws pixel in position 87
+Current CRT row: ####....
+Start cycle 89: begin executing addx 2
+During cycle 89: CRT draws pixel in position 88
+Current CRT row: ####....#
+During cycle 90: CRT draws pixel in position 89
+Current CRT row: ####....##
+End of cycle 91: finish executing addx 2 (Register X is now 11)
+Sprite position: ..........###...........................
+Start cycle 91: begin executing addx 6
+During cycle 91: CRT draws pixel in position 90
+Current CRT row: ####....###
+During cycle 92: CRT draws pixel in position 91
+Current CRT row: ####....####
+End of cycle 93: finish executing addx 6 (Register X is now 17)
+Sprite position: ................###.....................
+During cycle 93: CRT draws pixel in position 92
+Current CRT row: ####....####.
+During cycle 94: CRT draws pixel in position 93
+Current CRT row: ####....####..
+During cycle 95: CRT draws pixel in position 94
+Current CRT row: ####....####...
+During cycle 96: CRT draws pixel in position 95
+Current CRT row: ####....####....
+During cycle 97: CRT draws pixel in position 96
+Current CRT row: ####....####....#
+Start cycle 98: begin executing addx 1
+During cycle 98: CRT draws pixel in position 97
+Current CRT row: ####....####....##
+During cycle 99: CRT draws pixel in position 98
+Current CRT row: ####....####....###
+End of cycle 100: finish executing addx 1 (Register X is now 18)
+Sprite position: .................###....................
+During cycle 100: CRT draws pixel in position 99
+Current CRT row: ####....####....####
+During cycle 101: CRT draws pixel in position 100
+Current CRT row: ####....####....####.
+Start cycle 102: begin executing addx 7
+During cycle 102: CRT draws pixel in position 101
+Current CRT row: ####....####....####..
+During cycle 103: CRT draws pixel in position 102
+Current CRT row: ####....####....####...
+End of cycle 104: finish executing addx 7 (Register X is now 25)
+Sprite position: ........................###.............
+Start cycle 104: begin executing addx 1
+During cycle 104: CRT draws pixel in position 103
+Current CRT row: ####....####....####....
+During cycle 105: CRT draws pixel in position 104
+Current CRT row: ####....####....####....#
+End of cycle 106: finish executing addx 1 (Register X is now 26)
+Sprite position: .........................###............
+During cycle 106: CRT draws pixel in position 105
+Current CRT row: ####....####....####....##
+Start cycle 107: begin executing addx -13
+During cycle 107: CRT draws pixel in position 106
+Current CRT row: ####....####....####....###
+During cycle 108: CRT draws pixel in position 107
+Current CRT row: ####....####....####....####
+End of cycle 109: finish executing addx -13 (Register X is now 13)
+Sprite position: ............###.........................
+Start cycle 109: begin executing addx 13
+During cycle 109: CRT draws pixel in position 108
+Current CRT row: ####....####....####....####.
+During cycle 110: CRT draws pixel in position 109
+Current CRT row: ####....####....####....####..
+End of cycle 111: finish executing addx 13 (Register X is now 26)
+Sprite position: .........................###............
+Start cycle 111: begin executing addx 7
+During cycle 111: CRT draws pixel in position 110
+Current CRT row: ####....####....####....####...
+During cycle 112: CRT draws pixel in position 111
+Current CRT row: ####....####....####....####....
+End of cycle 113: finish executing addx 7 (Register X is now 33)
+Sprite position: ................................###.....
+During cycle 113: CRT draws pixel in position 112
+Current CRT row: ####....####....####....####....#
+Start cycle 114: begin executing addx 1
+During cycle 114: CRT draws pixel in position 113
+Current CRT row: ####....####....####....####....##
+During cycle 115: CRT draws pixel in position 114
+Current CRT row: ####....####....####....####....###
+End of cycle 116: finish executing addx 1 (Register X is now 34)
+Sprite position: .................................###....
+Start cycle 116: begin executing addx -33
+During cycle 116: CRT draws pixel in position 115
+Current CRT row: ####....####....####....####....####
+During cycle 117: CRT draws pixel in position 116
+Current CRT row: ####....####....####....####....####.
+End of cycle 118: finish executing addx -33 (Register X is now 1)
+Sprite position: ###.....................................
+During cycle 118: CRT draws pixel in position 117
+Current CRT row: ####....####....####....####....####..
+During cycle 119: CRT draws pixel in position 118
+Current CRT row: ####....####....####....####....####...
+During cycle 120: CRT draws pixel in position 119
+Current CRT row: ####....####....####....####....####....
+Start cycle 121: begin executing addx 2
+During cycle 121: CRT draws pixel in position 120
+Current CRT row: #
+During cycle 122: CRT draws pixel in position 121
+Current CRT row: ##
+End of cycle 123: finish executing addx 2 (Register X is now 3)
+Sprite position: ..###...................................
+During cycle 123: CRT draws pixel in position 122
+Current CRT row: ###
+During cycle 124: CRT draws pixel in position 123
+Current CRT row: ####
+During cycle 125: CRT draws pixel in position 124
+Current CRT row: #####
+Start cycle 126: begin executing addx 8
+During cycle 126: CRT draws pixel in position 125
+Current CRT row: #####.
+During cycle 127: CRT draws pixel in position 126
+Current CRT row: #####..
+End of cycle 128: finish executing addx 8 (Register X is now 11)
+Sprite position: ..........###...........................
+During cycle 128: CRT draws pixel in position 127
+Current CRT row: #####...
+Start cycle 129: begin executing addx -1
+During cycle 129: CRT draws pixel in position 128
+Current CRT row: #####....
+During cycle 130: CRT draws pixel in position 129
+Current CRT row: #####.....
+End of cycle 131: finish executing addx -1 (Register X is now 10)
+Sprite position: .........###............................
+Start cycle 131: begin executing addx 2
+During cycle 131: CRT draws pixel in position 130
+Current CRT row: #####.....#
+During cycle 132: CRT draws pixel in position 131
+Current CRT row: #####.....##
+End of cycle 133: finish executing addx 2 (Register X is now 12)
+Sprite position: ...........###..........................
+Start cycle 133: begin executing addx 1
+During cycle 133: CRT draws pixel in position 132
+Current CRT row: #####.....###
+During cycle 134: CRT draws pixel in position 133
+Current CRT row: #####.....####
+End of cycle 135: finish executing addx 1 (Register X is now 13)
+Sprite position: ............###.........................
+During cycle 135: CRT draws pixel in position 134
+Current CRT row: #####.....#####
+Start cycle 136: begin executing addx 17
+During cycle 136: CRT draws pixel in position 135
+Current CRT row: #####.....#####.
+During cycle 137: CRT draws pixel in position 136
+Current CRT row: #####.....#####..
+End of cycle 138: finish executing addx 17 (Register X is now 30)
+Sprite position: .............................###........
+Start cycle 138: begin executing addx -9
+During cycle 138: CRT draws pixel in position 137
+Current CRT row: #####.....#####...
+During cycle 139: CRT draws pixel in position 138
+Current CRT row: #####.....#####....
+End of cycle 140: finish executing addx -9 (Register X is now 21)
+Sprite position: ....................###.................
+Start cycle 140: begin executing addx 1
+During cycle 140: CRT draws pixel in position 139
+Current CRT row: #####.....#####.....
+During cycle 141: CRT draws pixel in position 140
+Current CRT row: #####.....#####.....#
+End of cycle 142: finish executing addx 1 (Register X is now 22)
+Sprite position: .....................###................
+Start cycle 142: begin executing addx 1
+During cycle 142: CRT draws pixel in position 141
+Current CRT row: #####.....#####.....##
+During cycle 143: CRT draws pixel in position 142
+Current CRT row: #####.....#####.....###
+End of cycle 144: finish executing addx 1 (Register X is now 23)
+Sprite position: ......................###...............
+Start cycle 144: begin executing addx -3
+During cycle 144: CRT draws pixel in position 143
+Current CRT row: #####.....#####.....####
+During cycle 145: CRT draws pixel in position 144
+Current CRT row: #####.....#####.....#####
+End of cycle 146: finish executing addx -3 (Register X is now 20)
+Sprite position: ...................###..................
+Start cycle 146: begin executing addx 11
+During cycle 146: CRT draws pixel in position 145
+Current CRT row: #####.....#####.....#####.
+During cycle 147: CRT draws pixel in position 146
+Current CRT row: #####.....#####.....#####..
+End of cycle 148: finish executing addx 11 (Register X is now 31)
+Sprite position: ..............................###.......
+During cycle 148: CRT draws pixel in position 147
+Current CRT row: #####.....#####.....#####...
+During cycle 149: CRT draws pixel in position 148
+Current CRT row: #####.....#####.....#####....
+Start cycle 150: begin executing addx 1
+During cycle 150: CRT draws pixel in position 149
+Current CRT row: #####.....#####.....#####.....
+During cycle 151: CRT draws pixel in position 150
+Current CRT row: #####.....#####.....#####.....#
+End of cycle 152: finish executing addx 1 (Register X is now 32)
+Sprite position: ...............................###......
+During cycle 152: CRT draws pixel in position 151
+Current CRT row: #####.....#####.....#####.....##
+Start cycle 153: begin executing addx 1
+During cycle 153: CRT draws pixel in position 152
+Current CRT row: #####.....#####.....#####.....###
+During cycle 154: CRT draws pixel in position 153
+Current CRT row: #####.....#####.....#####.....####
+End of cycle 155: finish executing addx 1 (Register X is now 33)
+Sprite position: ................................###.....
+During cycle 155: CRT draws pixel in position 154
+Current CRT row: #####.....#####.....#####.....#####
+During cycle 156: CRT draws pixel in position 155
+Current CRT row: #####.....#####.....#####.....#####.
+Start cycle 157: begin executing addx -13
+During cycle 157: CRT draws pixel in position 156
+Current CRT row: #####.....#####.....#####.....#####..
+During cycle 158: CRT draws pixel in position 157
+Current CRT row: #####.....#####.....#####.....#####...
+End of cycle 159: finish executing addx -13 (Register X is now 20)
+Sprite position: ...................###..................
+Start cycle 159: begin executing addx -19
+During cycle 159: CRT draws pixel in position 158
+Current CRT row: #####.....#####.....#####.....#####....
+During cycle 160: CRT draws pixel in position 159
+Current CRT row: #####.....#####.....#####.....#####.....
+End of cycle 161: finish executing addx -19 (Register X is now 1)
+Sprite position: ###.....................................
+Start cycle 161: begin executing addx 1
+During cycle 161: CRT draws pixel in position 160
+Current CRT row: #
+During cycle 162: CRT draws pixel in position 161
+Current CRT row: ##
+End of cycle 163: finish executing addx 1 (Register X is now 2)
+Sprite position: .###....................................
+Start cycle 163: begin executing addx 3
+During cycle 163: CRT draws pixel in position 162
+Current CRT row: ###
+During cycle 164: CRT draws pixel in position 163
+Current CRT row: ####
+End of cycle 165: finish executing addx 3 (Register X is now 5)
+Sprite position: ....###.................................
+Start cycle 165: begin executing addx 26
+During cycle 165: CRT draws pixel in position 164
+Current CRT row: #####
+During cycle 166: CRT draws pixel in position 165
+Current CRT row: ######
+End of cycle 167: finish executing addx 26 (Register X is now 31)
+Sprite position: ..............................###.......
+Start cycle 167: begin executing addx -30
+During cycle 167: CRT draws pixel in position 166
+Current CRT row: ######.
+During cycle 168: CRT draws pixel in position 167
+Current CRT row: ######..
+End of cycle 169: finish executing addx -30 (Register X is now 1)
+Sprite position: ###.....................................
+Start cycle 169: begin executing addx 12
+During cycle 169: CRT draws pixel in position 168
+Current CRT row: ######...
+During cycle 170: CRT draws pixel in position 169
+Current CRT row: ######....
+End of cycle 171: finish executing addx 12 (Register X is now 13)
+Sprite position: ............###.........................
+Start cycle 171: begin executing addx -1
+During cycle 171: CRT draws pixel in position 170
+Current CRT row: ######.....
+During cycle 172: CRT draws pixel in position 171
+Current CRT row: ######......
+End of cycle 173: finish executing addx -1 (Register X is now 12)
+Sprite position: ...........###..........................
+Start cycle 173: begin executing addx 3
+During cycle 173: CRT draws pixel in position 172
+Current CRT row: ######......#
+During cycle 174: CRT draws pixel in position 173
+Current CRT row: ######......##
+End of cycle 175: finish executing addx 3 (Register X is now 15)
+Sprite position: ..............###.......................
+Start cycle 175: begin executing addx 1
+During cycle 175: CRT draws pixel in position 174
+Current CRT row: ######......###
+During cycle 176: CRT draws pixel in position 175
+Current CRT row: ######......####
+End of cycle 177: finish executing addx 1 (Register X is now 16)
+Sprite position: ...............###......................
+During cycle 177: CRT draws pixel in position 176
+Current CRT row: ######......#####
+During cycle 178: CRT draws pixel in position 177
+Current CRT row: ######......######
+During cycle 179: CRT draws pixel in position 178
+Current CRT row: ######......######.
+Start cycle 180: begin executing addx -9
+During cycle 180: CRT draws pixel in position 179
+Current CRT row: ######......######..
+During cycle 181: CRT draws pixel in position 180
+Current CRT row: ######......######...
+End of cycle 182: finish executing addx -9 (Register X is now 7)
+Sprite position: ......###...............................
+Start cycle 182: begin executing addx 18
+During cycle 182: CRT draws pixel in position 181
+Current CRT row: ######......######....
+During cycle 183: CRT draws pixel in position 182
+Current CRT row: ######......######.....
+End of cycle 184: finish executing addx 18 (Register X is now 25)
+Sprite position: ........................###.............
+Start cycle 184: begin executing addx 1
+During cycle 184: CRT draws pixel in position 183
+Current CRT row: ######......######......
+During cycle 185: CRT draws pixel in position 184
+Current CRT row: ######......######......#
+End of cycle 186: finish executing addx 1 (Register X is now 26)
+Sprite position: .........................###............
+Start cycle 186: begin executing addx 2
+During cycle 186: CRT draws pixel in position 185
+Current CRT row: ######......######......##
+During cycle 187: CRT draws pixel in position 186
+Current CRT row: ######......######......###
+End of cycle 188: finish executing addx 2 (Register X is now 28)
+Sprite position: ...........................###..........
+During cycle 188: CRT draws pixel in position 187
+Current CRT row: ######......######......####
+During cycle 189: CRT draws pixel in position 188
+Current CRT row: ######......######......#####
+Start cycle 190: begin executing addx 9
+During cycle 190: CRT draws pixel in position 189
+Current CRT row: ######......######......######
+During cycle 191: CRT draws pixel in position 190
+Current CRT row: ######......######......######.
+End of cycle 192: finish executing addx 9 (Register X is now 37)
+Sprite position: ....................................###.
+During cycle 192: CRT draws pixel in position 191
+Current CRT row: ######......######......######..
+During cycle 193: CRT draws pixel in position 192
+Current CRT row: ######......######......######...
+During cycle 194: CRT draws pixel in position 193
+Current CRT row: ######......######......######....
+Start cycle 195: begin executing addx -1
+During cycle 195: CRT draws pixel in position 194
+Current CRT row: ######......######......######.....
+During cycle 196: CRT draws pixel in position 195
+Current CRT row: ######......######......######......
+End of cycle 197: finish executing addx -1 (Register X is now 36)
+Sprite position: ...................................###..
+Start cycle 197: begin executing addx 2
+During cycle 197: CRT draws pixel in position 196
+Current CRT row: ######......######......######......#
+During cycle 198: CRT draws pixel in position 197
+Current CRT row: ######......######......######......##
+End of cycle 199: finish executing addx 2 (Register X is now 38)
+Sprite position: .....................................###
+Start cycle 199: begin executing addx -37
+During cycle 199: CRT draws pixel in position 198
+Current CRT row: ######......######......######......###
+During cycle 200: CRT draws pixel in position 199
+Current CRT row: ######......######......######......####
+End of cycle 201: finish executing addx -37 (Register X is now 1)
+Sprite position: ###.....................................
+Start cycle 201: begin executing addx 1
+During cycle 201: CRT draws pixel in position 200
+Current CRT row: #
+During cycle 202: CRT draws pixel in position 201
+Current CRT row: ##
+End of cycle 203: finish executing addx 1 (Register X is now 2)
+Sprite position: .###....................................
+Start cycle 203: begin executing addx 3
+During cycle 203: CRT draws pixel in position 202
+Current CRT row: ###
+During cycle 204: CRT draws pixel in position 203
+Current CRT row: ####
+End of cycle 205: finish executing addx 3 (Register X is now 5)
+Sprite position: ....###.................................
+During cycle 205: CRT draws pixel in position 204
+Current CRT row: #####
+Start cycle 206: begin executing addx 15
+During cycle 206: CRT draws pixel in position 205
+Current CRT row: ######
+During cycle 207: CRT draws pixel in position 206
+Current CRT row: #######
+End of cycle 208: finish executing addx 15 (Register X is now 20)
+Sprite position: ...................###..................
+Start cycle 208: begin executing addx -21
+During cycle 208: CRT draws pixel in position 207
+Current CRT row: #######.
+During cycle 209: CRT draws pixel in position 208
+Current CRT row: #######..
+End of cycle 210: finish executing addx -21 (Register X is now -1)
+Sprite position: #.......................................
+Start cycle 210: begin executing addx 22
+During cycle 210: CRT draws pixel in position 209
+Current CRT row: #######...
+During cycle 211: CRT draws pixel in position 210
+Current CRT row: #######....
+End of cycle 212: finish executing addx 22 (Register X is now 21)
+Sprite position: ....................###.................
+Start cycle 212: begin executing addx -6
+During cycle 212: CRT draws pixel in position 211
+Current CRT row: #######.....
+During cycle 213: CRT draws pixel in position 212
+Current CRT row: #######......
+End of cycle 214: finish executing addx -6 (Register X is now 15)
+Sprite position: ..............###.......................
+Start cycle 214: begin executing addx 1
+During cycle 214: CRT draws pixel in position 213
+Current CRT row: #######.......
+During cycle 215: CRT draws pixel in position 214
+Current CRT row: #######.......#
+End of cycle 216: finish executing addx 1 (Register X is now 16)
+Sprite position: ...............###......................
+During cycle 216: CRT draws pixel in position 215
+Current CRT row: #######.......##
+Start cycle 217: begin executing addx 2
+During cycle 217: CRT draws pixel in position 216
+Current CRT row: #######.......###
+During cycle 218: CRT draws pixel in position 217
+Current CRT row: #######.......####
+End of cycle 219: finish executing addx 2 (Register X is now 18)
+Sprite position: .................###....................
+Start cycle 219: begin executing addx 1
+During cycle 219: CRT draws pixel in position 218
+Current CRT row: #######.......#####
+During cycle 220: CRT draws pixel in position 219
+Current CRT row: #######.......######
+End of cycle 221: finish executing addx 1 (Register X is now 19)
+Sprite position: ..................###...................
+During cycle 221: CRT draws pixel in position 220
+Current CRT row: #######.......#######
+Start cycle 222: begin executing addx -10
+During cycle 222: CRT draws pixel in position 221
+Current CRT row: #######.......#######.
+During cycle 223: CRT draws pixel in position 222
+Current CRT row: #######.......#######..
+End of cycle 224: finish executing addx -10 (Register X is now 9)
+Sprite position: ........###.............................
+During cycle 224: CRT draws pixel in position 223
+Current CRT row: #######.......#######...
+During cycle 225: CRT draws pixel in position 224
+Current CRT row: #######.......#######....
+Start cycle 226: begin executing addx 20
+During cycle 226: CRT draws pixel in position 225
+Current CRT row: #######.......#######.....
+During cycle 227: CRT draws pixel in position 226
+Current CRT row: #######.......#######......
+End of cycle 228: finish executing addx 20 (Register X is now 29)
+Sprite position: ............................###.........
+Start cycle 228: begin executing addx 1
+During cycle 228: CRT draws pixel in position 227
+Current CRT row: #######.......#######.......
+During cycle 229: CRT draws pixel in position 228
+Current CRT row: #######.......#######.......#
+End of cycle 230: finish executing addx 1 (Register X is now 30)
+Sprite position: .............................###........
+Start cycle 230: begin executing addx 2
+During cycle 230: CRT draws pixel in position 229
+Current CRT row: #######.......#######.......##
+During cycle 231: CRT draws pixel in position 230
+Current CRT row: #######.......#######.......###
+End of cycle 232: finish executing addx 2 (Register X is now 32)
+Sprite position: ...............................###......
+Start cycle 232: begin executing addx 2
+During cycle 232: CRT draws pixel in position 231
+Current CRT row: #######.......#######.......####
+During cycle 233: CRT draws pixel in position 232
+Current CRT row: #######.......#######.......#####
+End of cycle 234: finish executing addx 2 (Register X is now 34)
+Sprite position: .................................###....
+Start cycle 234: begin executing addx -6
+During cycle 234: CRT draws pixel in position 233
+Current CRT row: #######.......#######.......######
+During cycle 235: CRT draws pixel in position 234
+Current CRT row: #######.......#######.......#######
+End of cycle 236: finish executing addx -6 (Register X is now 28)
+Sprite position: ...........................###..........
+Start cycle 236: begin executing addx -11
+During cycle 236: CRT draws pixel in position 235
+Current CRT row: #######.......#######.......#######.
+During cycle 237: CRT draws pixel in position 236
+Current CRT row: #######.......#######.......#######..
+End of cycle 238: finish executing addx -11 (Register X is now 17)
+Sprite position: ................###.....................
+During cycle 238: CRT draws pixel in position 237
+Current CRT row: #######.......#######.......#######...
+During cycle 239: CRT draws pixel in position 238
+Current CRT row: #######.......#######.......#######....
+During cycle 240: CRT draws pixel in position 239
+Current CRT row: #######.......#######.......#######.....
+##..##..##..##..##..##..##..##..##..##..
+
+
+
+
