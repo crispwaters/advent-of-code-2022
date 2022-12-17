@@ -1,6 +1,6 @@
 const fs = require('fs')
 
-const isSample = true
+const isSample = false
 const prefix = isSample ? 'sample.' : ''
 const inputFile = `${prefix}input.txt`
 const outputFile = `${prefix}output.txt`
@@ -57,23 +57,64 @@ const getShortestPath = (start, end) => {
 }
 const getFunctionalValves = () => Object.keys(valves).filter(key => valves[key].rate > 0)
 
-const limit = 26
-const dfs = (cur, eCur, openValvesOrder, turn, eTurn) => {
-  if (turn > limit && eTurn > limit) return [0]
-  const results = [0]
-  const openValves = openValvesOrder.split(',')
-  const toOpen = getFunctionalValves().filter(valve => !openValves.includes(valve))
-  for (const next of toOpen) {
-    const pathLength = getShortestPath(cur, next).length
-    const eToOpen = getFunctionalValves().filter(valve => valve !== next && !openValves.includes(valve))
-    for (const eNext of eToOpen) {
-      const ePathLength = getShortestPath(eCur, eNext).length
-      const tPressure = Math.max((limit - turn - pathLength + 1) * valves[next].rate, 0) +
-        Math.max((limit - eTurn - ePathLength + 1) * valves[eNext].rate, 0) +
-        Math.max(...dfs(next, eNext, `${[...openValvesOrder.split(','), next, eNext].join(',')}`, turn + pathLength, eTurn + ePathLength))
-      results.push(tPressure)
-    }    
+const getAllPaths = () => {
+  const paths = [{
+    cur: 'AA',
+    toVisit: getFunctionalValves(),
+    timeLeft: 26,
+    finished: false,
+    steps: [],
+    finalPressure: 0
+  }]
+
+  for (let n = 0; n < paths.length; n++) {
+    const path = paths[n]
+    if (path.timeLeft <= 0 || path.finished) {
+      path.finished = true
+      continue
+    }
+
+    let madeNewPath = false
+    for (const valve of path.toVisit) {
+      if (valve === path.cur) continue
+      const toValve = getShortestPath(path.cur, valve)
+      if (path.timeLeft - toValve.length <= 1) continue
+      madeNewPath = true
+      const nextTimeLeft = path.timeLeft - toValve.length
+      paths.push({
+        cur: valve,
+        toVisit: path.toVisit.filter(v => v !== valve),
+        timeLeft: nextTimeLeft,
+        finished: false,
+        steps: [...path.steps, valve],
+        finalPressure: path.finalPressure + nextTimeLeft * valves[valve].rate
+      })
+      paths.push({
+        cur: valve,
+        toVisit: [],
+        timeLeft: nextTimeLeft,
+        finished: true,
+        steps: [...path.steps, valve],
+        finalPressure: path.finalPressure + nextTimeLeft * valves[valve].rate
+      })
+    }
+    if (!madeNewPath) path.finished = true
   }
-  return results
+  return paths.filter(p => p.finished).sort((a, b) => b.finalPressure - a.finalPressure)
 }
-console.log(Math.max(...dfs('AA', 'AA', '', 1, 1)))
+const getMaxWithElephant = () => {
+  let max = 0
+  const paths = getAllPaths()
+  for (let hp = 0; hp < paths.length; hp++) {
+    for (let ep = hp + 1; hp < paths.length; hp++) {
+      if (paths[hp].steps.every(s => !paths[ep].steps.includes(s))) {
+        const combined = paths[hp].finalPressure + paths[ep].finalPressure
+        if (combined > max) {
+          max = combined
+        }
+      }
+    }
+  }
+  return max
+}
+console.log(getMaxWithElephant())
