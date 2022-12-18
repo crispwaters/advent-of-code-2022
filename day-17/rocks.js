@@ -3,6 +3,7 @@ class Grid {
   height
   rockCount
   _gridObj = {}
+  _rocks = []
   constructor() {
     this.width = 7
     this.height = 0
@@ -34,6 +35,7 @@ class Grid {
     }
     rock._isFalling = false
     this.rockCount++
+    this._rocks.push(rock)
   }
 
   printGrid() {
