@@ -64,6 +64,7 @@ class GridFactory {
       this.#grids[n] = this.#buildGrid()
       this.#updateBlizzards()
     }
+    Logger.log('Built', nGrids, 'grids')
     Logger.timeEnd(timerLabel)
   }
 

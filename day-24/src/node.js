@@ -18,13 +18,16 @@ class Node {
   /**
    * @type {Node[]}
    */
-  edges
+  edges = []
+  /**
+   * @type {Node[]}
+   */
+  prev = []
   visited = false
-  constructor (xy, cycle, edges = []) {
+  constructor (xy, cycle) {
     this.id = id++
     this.xy = xy
     this.cycle = cycle
-    this.edges = edges
   }
 
   /**
@@ -34,6 +37,20 @@ class Node {
   addEdge(edge) {
     Logger.verbose('Adding Edge', edge, 'to', this)
     this.edges.push(edge)
+    edge.prev.push(this)
+  }
+
+  /**
+   * Removes link to this node from all previous nodes
+   * @return {Node[]}
+   */
+  prune() {
+    const updated = []
+    for (const node of this.prev) {
+      node.remove(this)
+      updated.push(node)
+    }
+    return updated
   }
 
   /**

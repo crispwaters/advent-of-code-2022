@@ -5,7 +5,7 @@ Logger.LOG_LEVEL = Logger.LOG_LEVELS.debug
 const timerLabel = 'Execution time'
 Logger.time(timerLabel)
 
-const isSample = false
+const isSample = true
 const prefix = isSample ? 'sample.' : ''
 const inputFile = `${prefix}input.txt`
 const outputFile = `${prefix}output.txt`
@@ -40,6 +40,7 @@ const parseInput = (input) => {
   return parsed
 }
 const graph = new Graph(parseInput(input))
+graph.prune()
 const path = graph.findShortestPath()
 console.log(path)
 console.log(path.history.split(';').length - 1)

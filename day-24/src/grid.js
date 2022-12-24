@@ -40,7 +40,7 @@ class Grid {
    * @returns {{x: number, y: number}[]} x-y coordinate pairs
    */
   getAdjacentSpaces({x, y}) {
-    return [{x: x+1, y},{x: x-1, y},{x, y: y+1},{x, y: y-1},{x, y}].filter(xy => this.#grid[c2k(xy)]) 
+    return [{x: x+1, y},{x, y: y+1},{x: x-1, y},{x, y: y-1},{x, y}].filter(xy => this.#grid[c2k(xy)]) 
   }
 }
 

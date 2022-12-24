@@ -20,7 +20,7 @@ class Graph {
   #nCycles
   /**
    * Encapsulation of traversable nodes at each cycle index
-   * @type {Record<number, Record<string, Node>>}
+   * @type {Record<string, Node>}
    */
   #nodeMap = {}
   /**
@@ -39,7 +39,6 @@ class Graph {
     this.#gridFactory = new GridFactory(params)
     this.#nCycles = this.#gridFactory.getCycleLength()
     for(let i=0; i<this.#nCycles; i++) {
-      this.#nodeMap[i] = {}
       const grid = this.#gridFactory.getGrid(i)
       const nextGrid = this.#gridFactory.getGrid(i + 1)
       for (const xy of grid.getPositions()) {
@@ -56,6 +55,24 @@ class Graph {
     Logger.verbose(this.#nodeMap)
     Logger.timeEnd(timerLabel)
     Logger.info('Total graph nodes=', Object.keys(this.#nodeMap).length)
+  }
+
+  prune() {
+    const timerLabel = 'Prune'
+    Logger.time(timerLabel)
+    const toPrune = Object.keys(this.#nodeMap)
+      .filter(key =>  this.#nodeMap[key].edges.length === 0)
+      .map(key => this.#nodeMap[key])
+    let totalPruned = 0
+    while (toPrune.length) {
+      const node = toPrune.shift()
+      if (node.edges.length) continue
+      const pruned = node.prune()
+      totalPruned++
+      toPrune.push(...pruned.filter(node => node.edges.length === 0))
+    }
+    Logger.debug('Pruned ', totalPruned, 'node(s)')
+    Logger.timeEnd(timerLabel)
   }
 
   findShortestPath() {
