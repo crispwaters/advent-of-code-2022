@@ -25,12 +25,16 @@ class Graph {
   #nodeMap = {}
   /**
   * @param {{
-  *  blizzards: {x: number, y: number: direction: '^'|'V'|'<'|'>'}[],
+  *  blizzards: {x: number, y: number: direction: '^'|'v'|'<'|'>'}[],
   *  width: number,
   *  height: number,
   *  start: {x: number, y: number},
   *  finish: {x: number, y: number}
   * }} params 
+  * @param {{
+  *  start: {x: number, y: number},
+  *  finish: {x: number, y: number}
+  * }}
   */
   constructor(params) {
     const timerLabel = 'Construct Graph'
@@ -75,16 +79,14 @@ class Graph {
     Logger.timeEnd(timerLabel)
   }
 
-  findShortestPath() {
-    const start = this.#gridFactory.getStart()
-    const finish = this.#gridFactory.getFinish()
+  findShortestPath(start, finish, minute = 0) {
+    if (!start) start = this.#gridFactory.getStart()
+    if (!finish) finish = this.#gridFactory.getFinish()
     const fKey = c2k(finish)
-    const startNode = this.#getNode(0, start)
+    const startNode = this.#getNode(this.#minuteToIndex(minute), start)
     const q = [new Path({ location: startNode })]
     while (q.length) {
       const path = q.shift()
-      // if (path.location.isVisited()) continue
-      // path.location.visit()
       let nNewPaths = 0
       const edges = path.location.getEdges({skipVisited: true})
       Logger.verbose(edges)
@@ -100,6 +102,16 @@ class Graph {
       }
       Logger.verbose(`Added ${nNewPaths} path(s) to queue`)
     }
+  }
+
+  clearVisits() {
+    const timerLabel = 'Clear Visits'
+    Logger.time(timerLabel)
+    for (const keys of Object.keys(this.#nodeMap)) {
+      const node = this.#nodeMap[keys]
+      node.visited = false
+    }
+    Logger.timeEnd(timerLabel)
   }
 
   #minuteToIndex(nMinute) {
