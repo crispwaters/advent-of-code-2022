@@ -5,7 +5,7 @@ Logger.LOG_LEVEL = Logger.LOG_LEVELS.debug
 const timerLabel = 'Execution time'
 Logger.time(timerLabel)
 
-const isSample = true
+const isSample = false
 const prefix = isSample ? 'sample.' : ''
 const inputFile = `${prefix}input.txt`
 const outputFile = `${prefix}output.txt`
@@ -26,7 +26,7 @@ const parseInput = (input) => {
     line.shift()
     line.pop()
     for (let y=0; y<width; y++) {
-      if (['^','V','<','>'].includes(line[y])) blizzards.push({x, y, direction: line[y]})
+      if (['^','v','<','>'].includes(line[y])) blizzards.push({x, y, direction: line[y]})
     }
   }
   const parsed = {
@@ -40,7 +40,7 @@ const parseInput = (input) => {
   return parsed
 }
 const graph = new Graph(parseInput(input))
-graph.prune()
+// graph.prune()
 const path = graph.findShortestPath()
 console.log(path)
 console.log(path.history.split(';').length - 1)

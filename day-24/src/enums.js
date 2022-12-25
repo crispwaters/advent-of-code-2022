@@ -1,6 +1,6 @@
 const Directions = Object.freeze({
   UP: '^',
-  DOWN: 'V',
+  DOWN: 'v',
   LEFT: '<',
   RIGHT: '>'
 })

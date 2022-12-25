@@ -7,14 +7,14 @@ class Blizzard {
   #position
 
   /**
-   * @type {'^'|'V'|'<'|'>'}
+   * @type {'^'|'v'|'<'|'>'}
    */
   #direction
 
   /**
    * @param {{ 
    *  position: {x: number, y: number},
-   *  direction: '^'|'V'|'<'|'>'
+   *  direction: '^'|'v'|'<'|'>'
    * }} params 
    */
   constructor({position, direction}) {

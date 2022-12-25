@@ -14,3 +14,18 @@ test('Nodes store edges by reference', t => {
   t.deepEqual(nodeB.edges, [nodeC])
   t.deepEqual(nodeA.edges[0].edges, [nodeC])
 })
+
+test('Node getEdges skips visited nodes', t => {
+  const nodeA = new Node({x: 5, y: 5}, 1)
+  const nodeB = new Node({x: 5, y: 4}, 2)
+  const nodeC = new Node({x: 5, y: 6}, 2)
+  const nodeD = new Node({x: 4, y: 5}, 2)
+
+  nodeA.addEdge(nodeB)
+  nodeA.addEdge(nodeC)
+  nodeA.addEdge(nodeD)
+
+  nodeC.visit()
+
+  t.deepEqual(nodeA.getEdges({skipVisited: true}), [nodeB, nodeD])
+})

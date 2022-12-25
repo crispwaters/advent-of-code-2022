@@ -83,7 +83,8 @@ class Graph {
     const q = [new Path({ location: startNode })]
     while (q.length) {
       const path = q.shift()
-      path.location.visit()
+      // if (path.location.isVisited()) continue
+      // path.location.visit()
       let nNewPaths = 0
       const edges = path.location.getEdges({skipVisited: true})
       Logger.verbose(edges)

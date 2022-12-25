@@ -1,4 +1,5 @@
 const Logger = require('./logger')
+const Node = require('./node')
 
 const {c2k} = require('./util')
 
@@ -43,9 +44,14 @@ class Path {
     this.terminated = terminated
   }
 
+  /**
+   * @param {Node} location 
+   * @returns 
+   */
   move(location) {
     this.history = [this.history, c2k(this.location.xy)].filter(str => str).join(';')
     this.location = location
+    location.visit()
     Logger.verbose('Moved', this, 'to', location)
     return this
   }
