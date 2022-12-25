@@ -31,10 +31,6 @@ class Graph {
   *  start: {x: number, y: number},
   *  finish: {x: number, y: number}
   * }} params 
-  * @param {{
-  *  start: {x: number, y: number},
-  *  finish: {x: number, y: number}
-  * }}
   */
   constructor(params) {
     const timerLabel = 'Construct Graph'
